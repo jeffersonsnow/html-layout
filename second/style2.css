@@ -1,0 +1,41 @@
+div {
+  background-color: red;
+  height: 50vh;
+
+}
+
+.column {
+  width: calc(100vw/3);
+  box-sizing: border-box;
+  float: left;
+}
+
+#baby-blue {
+  background-color: rgb(104, 167, 219);
+  height: 100vh;
+
+}
+#teal{
+  background-color: rgb(41, 194, 143);
+  height: 100vh;
+}
+#lime{
+  background-color:rgb(118, 166, 108);
+  height: 75vh;
+}
+#red{
+  background-color: rgb(185, 69, 39);
+  height: 25vh;
+}
+
+#red p{
+  color: white;
+  padding: 60px 12.5px 16.66px 80px;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+}
